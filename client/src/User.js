@@ -31,6 +31,15 @@ export default class User extends React.Component {
         .then((res) => res.json())
         .then((data) => {console.log(data.body.data)
         this.setState({tweets:data.body.data,isLoading:false})
+        if(data.body.data){
+        var ele = document.createElement('a');
+        ele.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(JSON.stringify(data.body.data)));
+        ele.setAttribute('download', this.state.userName+'.json');
+        ele.style.display = 'none';
+        document.body.appendChild(ele);
+        ele.click();
+        document.body.removeChild(ele);
+        }
         });
       }
       if(data.body.errors){
