@@ -10,7 +10,7 @@ To run Backend:
   3. npm install
   4. npm start
 
-To run frontend:
+To run Frontend:
   1. cd client
   2. npm install
   3. npm start
