@@ -4,8 +4,19 @@ The backend is created using the node.js proxy server that makes calls to the tw
 The frontend is created using react.js(create-react-app template)
 
 Here is the look of the Application:
-CASEE 1: When User does not exist
+
+
+CASE 1: When User Exists, display top 10 tweets and download file in json format.
+![alt text](https://github.com/rashmibhaskar/MOLA-twitter-app/blob/master/App_Screenshots/User%20Exists.png?raw=true)
+
+
+CASE 2: When  User Exists, But has no tweets.
+![alt text](https://github.com/rashmibhaskar/MOLA-twitter-app/blob/master/App_Screenshots/User%20Exists_No%20Tweets.png?raw=true)
+
+
+CASE 3: When User does not exist.
 ![alt text](https://github.com/rashmibhaskar/MOLA-twitter-app/blob/master/App_Screenshots/User%20Does%20Not%20exist.png?raw=true)
+
 
 To run Backend:
   1. cd node-server
