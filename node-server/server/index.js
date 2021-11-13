@@ -16,7 +16,7 @@ const get = util.promisify(request.get);
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-const BEARER_TOKEN = `AAAAAAAAAAAAAAAAAAAAAOvwVgEAAAAA5c12yUYj7fM3D1tGnj%2FnQTAFj08%3DPnP4XWWpXZ1kb5FfIkjWSWFtzfLSxMqkAiMgoLgzhedJeteh6P`;
+const BEARER_TOKEN = `YOUr BEARER TOKEN`;
 
 
   
